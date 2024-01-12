@@ -25,7 +25,7 @@ public class PlayerControls : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector2 move = new Vector2 (0, 0);
         if (allowKeyControls)

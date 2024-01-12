@@ -42,7 +42,11 @@ public class PauseMenu : MonoBehaviour
     {
         Application.Quit();
     }
-
+    public void Pause()
+    {
+        Time.timeScale = 0;
+        GetComponent<Canvas>().enabled = true;
+    }
     public void LoadMainMenu()
     {
         Time.timeScale = 1;
