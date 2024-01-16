@@ -242,8 +242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 196786363}
-  chaseDistance: 2
-  moveSpeed: 5
+  chaseDistance: 10
+  moveSpeed: 4.9
 --- !u!50 &22386160
 Rigidbody2D:
   serializedVersion: 4
